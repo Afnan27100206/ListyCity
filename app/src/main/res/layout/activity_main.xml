@@ -30,34 +30,12 @@
 
     </Button>
 
-    <Button
-        android:id="@+id/confirm_city"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CONFIRM"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
-    </Button>
-
-
-    <EditText
-        android:id="@+id/city_input"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="Enter city name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/confirm_city">
-
-    </EditText>
-
     <ListView
         android:id="@+id/city_list"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/city_input"
-        app:layout_constraintEnd_toEndOf="@id/confirm_city"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/add_city">
 
